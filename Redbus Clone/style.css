@@ -464,12 +464,13 @@ header .nav-item-right li .down{
     top: 150px;
     width: 100%;
     height: 40vh;
-    background-color: #60b681;
+    /* background-color: #60b681; */
     padding: 15px;
     display: flex;
     gap: 1.5rem;
     overflow: scroll hidden;
     scroll-behavior: smooth;
+    /* scrollbar-width: none; */
 }
 .restpage .pagecontents .state-service-section .state-box{
     position: relative;
