@@ -439,16 +439,16 @@ header .nav-item-right li .down{
 .restpage .pagecontents h1{
     position: relative;
     top: 50px;
-    left: 50px;
-    font-size: 2rem;
+    left: 30px;
+    font-size: 2.5rem;
     color: #1d1d1d;
     font-style: normal;
-    font-weight: 400;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-weight: 300;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .restpage .pagecontents a{
     position: absolute;
-    /* top: 30px; */
+    top: 50px;
     right: 50px;
     padding: 10px 24px;
     border: 1px solid rgb(170, 170, 170);
@@ -458,4 +458,92 @@ header .nav-item-right li .down{
     text-transform: uppercase;
     text-decoration: none;
     font-size: 18px;
+}
+.restpage .state-service-section{
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    height: 40vh;
+    background-color: #60b681;
+    padding: 15px;
+    display: flex;
+    gap: 1.5rem;
+}
+.restpage .pagecontents .state-service-section .state-box{
+    width: 30rem;
+    height: 100%;
+    background: #fae9ea;
+    border-radius: 16px;
+    /* overflow: hidden; */
+}
+.restpage .pagecontents .state-service-section .state-box .topbox{
+    min-width: 480px;
+    height: 198px;
+    background-color: #fff;
+    border-radius: 16px;
+}
+.restpage .pagecontents .state-service-section .state-box .top{
+    position: relative;
+    width: 100%;
+    /* height: 20px; */
+    padding: 16px;
+    border-bottom: 1px solid #e5e5e5 ;
+    display: flex;
+}
+.restpage .pagecontents .state-service-section .state-box .top img{
+    border-radius: 50%;
+}
+.restpage .pagecontents .state-service-section .state-box .top .statename{
+    margin-left: 10px;
+    width: 80%;
+    height: 35px;
+    /* border-right: 1px solid red; */
+    /* background-color: #1d1d1d; */
+    display: flex;
+    gap: 12px;
+}
+.restpage .pagecontents .state-service-section .state-box .top .statename h2{
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    /* line-height: 1.5rem; */
+    color: #1d1d1d;
+}
+.restpage .pagecontents .state-service-section .state-box .top .statename .ratingbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    padding: 3px 6px;
+    color: #fff;
+    background: #007b2d;
+    border-radius: 8px;
+}
+.restpage .pagecontents .state-service-section .state-box .top .languagedescription{
+    position: absolute;
+    /* padding: 2px; */
+    left: 90px;
+    top: 55px;
+    width: max-content;
+    height: 35px;
+    color: rgb(111, 111, 111);
+    margin-top: 4px;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+.restpage .pagecontents .state-service-section .state-box .bottombox{
+    position: relative;
+    width: 100%;
+    padding: 1rem;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.restpage .pagecontents .state-service-section .state-box .bottombox h2{
+    position: absolute;
+    bottom: 50px;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
 }
