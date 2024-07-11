@@ -543,7 +543,10 @@ header .nav-item-right li .down{
 .restpage .pagecontents .state-service-section .state-box .bottombox h2{
     position: absolute;
     bottom: 50px;
+    margin: 0 4rem;
     font-size: 1rem;
     text-align: center;
     text-transform: uppercase;
+    line-height: 20px;
+    font-weight: 400;
 }
