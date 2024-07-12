@@ -691,3 +691,144 @@ header .nav-item-right li .down{
     height: 100%;
     /* background-color: #1d1d1d; */
 }
+.aboutapp{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #007b2d; */
+    padding: 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutapp .aboutappbox{
+    width: 100%;
+    height: 65vh;
+    background-color: #666;
+    border-radius: 48px;
+    background-image: url(./media/appInstallbg.svg);
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.aboutapp .aboutappbox .aboutapptop h1{
+    color: #fff;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.aboutapp .aboutappbox .aboutappbottom{
+    width: 100%;
+    height: 100%;
+    /* background-color: #007b2d; */
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+.aboutapp .aboutappbox .aboutappbottom .whitebox{
+    width: 23.5rem;
+    padding: 3rem 2rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+.aboutapp .aboutappbox .aboutappbottom .whitebox .twolistbox{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.aboutapp .aboutappbox .aboutappbottom .whitebox .twolistbox div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.aboutapp .aboutappbox .aboutappbottom .whitebox .twolistbox div span{
+    font-size: 1.25rem;
+    line-height: 22px;
+    font-weight: 600;
+}
+.aboutapp .aboutappbox .aboutappbottom .whitebox .downloaddescription{
+    width: 100%;
+    /* height: 50px; */
+    /* background-color: #007b2d; */
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.aboutapp .aboutappbox .aboutappbottom .whitebox .downloaddescription .left{
+    width: 50%;
+    height: 100%;
+    /* background-color: #1d1d1d; */
+    border-right: 1px solid #666;
+}
+.aboutapp .aboutappbox .aboutappbottom .whitebox .downloaddescription .left h3{
+    margin-bottom: 5px;
+}
+.aboutapp .aboutappbox .aboutappbottom .whitebox .downloaddescription .left p{
+    margin-bottom: 5px;
+}
+.aboutapp .aboutappbox .aboutappbottom .whitebox .downloaddescription .left h5{
+    margin-bottom: 5px;
+}
+.aboutapp .aboutappbox .aboutappbottom .whitebox .downloaddescription .right{
+    width: 50%;
+    height: 100%;
+    /* background-color: #1d1d1d; */
+    padding-left: 10px;
+}
+.aboutapp .aboutappbox .aboutappbottom .whitebox .downloaddescription .right h3{
+    margin-bottom: 5px;
+}
+.aboutapp .aboutappbox .aboutappbottom .whitebox .downloaddescription .right p{
+    margin-bottom: 5px;
+}
+.aboutapp .aboutappbox .aboutappbottom .whitebox .downloaddescription .right h5{
+    margin-bottom: 5px;
+}
+.aboutapp .aboutappbox .aboutappbottom .downloadappoptions{
+    width: 20rem;
+    padding: 2rem 0;
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: space-between;
+    /* gap: 1rem; */
+}
+.aboutapp .aboutappbox .aboutappbottom .downloadappoptions .qrbox{
+    width: 106px;
+    height: 106px;
+    /* background-color: #007b2d; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.aboutapp .aboutappbox .aboutappbottom .downloadappoptions .qrbox h3{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: rgb(255, 255, 255)
+}
+.aboutapp .aboutappbox .aboutappbottom .downloadappoptions .qrbox img{
+    width: 100%;
+    height: 100%;
+}
+.aboutapp .aboutappbox .aboutappbottom .downloadappoptions .downloadplatform{
+    width: 106px;
+    /* height: 106px; */
+    /* background-color: #007b2d; */
+}
+.aboutapp .aboutappbox .aboutappbottom .downloadappoptions .downloadplatform h3{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+.aboutapp .aboutappbox .aboutappbottom .downloadappoptions .downloadplatform img{
+    margin-bottom: 10px;
+}
