@@ -596,7 +596,7 @@ header .nav-item-right li .down{
 .trainsection .aboutbox{
     width: 100%;
     height: 100%;
-    background-color: #007b2d;
+    /* background-color: #007b2d; */
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -604,17 +604,12 @@ header .nav-item-right li .down{
 .trainsection .aboutbox .aboutleft{
     width: 45%;
     height: 100%;
-    background-color: #1d1d1d;
+    /* background-color: #1d1d1d; */
     display: flex;
     flex-direction: column;
 }
-.trainsection .aboutbox .aboutright{
-    width: 45%;
-    height: 100%;
-    background-color: #1d1d1d;
-}
 .trainsection .aboutbox .aboutleft h2{
-    background-color: #007b2d;
+    /* background-color: #007b2d; */
     width: 30.2rem;
     font-size: 2.5rem;
     font-weight: 400;
@@ -623,9 +618,76 @@ header .nav-item-right li .down{
     padding: 10px;
     margin-bottom: 30px;
 }
-.trainsection.aboutbox .aboutleft .aboutleftsecond{
-    width: 100%;
+.trainsection .aboutbox .aboutleft .aboutleftsecond{
+    width: 50%;
     padding: 0.875rem 1rem;
-    background-color: #007b2d;
+    /* background-color: #007b2d; */
     border-bottom: 3px solid #d84e55;
+    border-radius: 0px 0px 3px 3px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 20px;
+}
+.trainsection .aboutbox .aboutleft .aboutleftsecond img{
+    filter: none;
+    opacity: 1;
+    width: 3.125rem;
+    height: 1.75rem;
+}
+.trainsection .aboutbox .aboutleft .aboutleftsecond span{
+    width: 8.125rem;
+    color: #d84e55;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.trainsection .aboutbox .aboutleft .aboutleftthird{
+    width: 100%;
+    height: 35vh;
+    /* background-color: #007b2d; */
+    font-family: monospace;
+}
+.trainsection .aboutbox .aboutleft .aboutleftthird p{
+    width: 550px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2.125rem;
+    color: rgb(29, 29, 29);
+    margin-bottom: 1.5rem
+}
+.trainsection .aboutbox .aboutleft .aboutleftthird div{
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.trainsection .aboutbox .aboutleft .aboutleftthird div img{
+    width: 30px;
+    height: 30px;
+}
+.trainsection .aboutbox .aboutleft .aboutleftthird div span{
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 17px;
+    color: rgb(29, 29, 29);
+}
+.trainsection .aboutbox .aboutleft a{
+    padding: 0.9rem 1rem;
+    width: max-content;
+    background-color: #d84e55;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    line-height: 24px;
+}
+.trainsection .aboutbox .aboutright{
+    width: 45%;
+    height: 100%;
+    /* background-color: #1d1d1d; */
 }
