@@ -936,6 +936,8 @@ header .nav-item-right li .down{
 .globalpresence .countrybox .countrylistbox .singlecountrybox{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 1rem;
     cursor: pointer;
 }
@@ -943,6 +945,7 @@ header .nav-item-right li .down{
     background-color: #eee;
 }
 .globalpresence .countrybox .countrylistbox .singlecountrybox .down{
+    width: max-content;
     text-align: center;
     border-radius: 1rem;
     color: #1d1d1d;
@@ -987,4 +990,103 @@ header .nav-item-right li .down{
     text-transform: capitalize;
     color: blue;
     cursor: pointer;
+}
+.busbookingsection{
+    width: 100%;
+    height: 80vh;
+    /* background-color: #007b2d; */
+    padding: 0 150px;
+}
+.busbookingsection .busbookingmainbox{
+    width: 100%;
+    height: 100%;
+    /* background-color: #60b681; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.busbookingsection .busbookingmainbox h1{
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-style: normal;
+    color: #1d1d1d;
+    margin: 1rem 0;
+}
+.busbookingsection .busbookingmainbox p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    color: #1d1d1d;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+.busbookingsection .busbookingmainbox .booknowbox{
+    width: 100%;
+    /* height: 100px; */
+    /* background-color: #666; */
+    padding: 1.75rem 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 1.25rem;
+    border: 1px solid #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.busbookingsection .busbookingmainbox .booknowbox img{
+    width: 4.5rem;
+}
+.busbookingsection .busbookingmainbox .booknowbox .midcontent{
+    display: flex;
+    flex-direction: column;
+    /* width: 30rem; */
+}
+.busbookingsection .busbookingmainbox .booknowbox .midcontent h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1d1d1d;
+}
+.busbookingsection .busbookingmainbox .booknowbox .midcontent h3 span{
+    color: #d84e55;
+    font-size: 1.75rem;
+}
+.busbookingsection .busbookingmainbox .booknowbox .midcontent .busdescribe{
+    width: 100%;
+    /* height: 20px; */
+    /* background-color: #1d1d1d;    */
+    display: flex;
+    text-wrap: nowrap;
+}
+.busbookingsection .busbookingmainbox .booknowbox .midcontent .busdescribe .describe{
+    width: 32%;
+    /* height: 15px; */
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* padding: 0 10px; */
+}
+.busbookingsection .busbookingmainbox .booknowbox .midcontent .busdescribe .describe p{
+    font-size: 1rem;
+}
+.busbookingsection .busbookingmainbox .booknowbox .midcontent .busdescribe .describe span{
+    color: #d84e55;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.busbookingsection .busbookingmainbox .booknowbox button{
+    background-color: #d84e55;
+    font-weight: 600;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    height: 3rem;
+    width: 9.325rem;
+    cursor: pointer;
+    margin-right: 1.5rem;
+    border: none;
 }
