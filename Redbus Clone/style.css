@@ -108,7 +108,7 @@ header .nav-item-left li:nth-child(4) span{
 }
 header .nav-item-left li:nth-child(4) .pop{
     position: relative;
-    padding: .125rem 0.25rem;
+    padding: 0.125rem 0.5rem;
     background-color: #60b681;
     border-radius: 0.325rem;
     height: 1.063rem;
@@ -117,14 +117,15 @@ header .nav-item-left li:nth-child(4) .pop{
     top: -3px;
     right: -15px;
     font-size: 0.67rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 header .nav-item-left li:nth-child(4) .pop span{
     color: #fff;
     position: absolute;
     left: 7px;
-    top: 5px;
-    /* position: relative; */
-    /* bottom: 1px; */
+    /* top: 5px; */
 }
 header .nav-item-right{
     display: flex;
@@ -1215,11 +1216,11 @@ details {
     border-bottom: 1px solid #888;
     cursor: pointer;
 }
-.routesfaq .routesfaqinner .faqbox:hover{
+.routesfaq .routesfaqinner .faqbox:active{
     height: fit-content;
     transition: all 0.5s ease;
 }
-.routesfaq .routesfaqinner .faqbox:hover ion-icon{
+.routesfaq .routesfaqinner .faqbox:active ion-icon{
     transform: rotate(180deg);
 }
 .routesfaq .routesfaqinner .faqbox div{
@@ -1239,4 +1240,129 @@ details {
   }
   .routesfaq .routesfaqinner .faqbox p{
     font-size: 1rem;
+  }
+  footer{
+    width: 100%;
+    height: 80vh;
+    /* background-color: #007b2d; */
+    padding: 35px 150px;
+}
+footer .footerinnerbox{
+    width: 100%;
+    height: 100%;
+    /* background-color: #60b681; */
+    border-bottom: 1px solid #888;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 3rem; */
+  }
+  footer .footerinnerbox .firstbox{
+    width: 17rem;
+    height: 100%;
+    /* background-color: #fff; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    color: #3e3e52;
+  }
+  footer .footerinnerbox .firstbox img{
+    width: 6.25rem;
+    height: 4.1rem;
+  }
+  footer .footerinnerbox .secondbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 3rem 0px;
+  }
+  footer .footerinnerbox .secondbox h1{
+    font-size: 1.25rem;
+  }
+  footer .footerinnerbox .secondbox ul{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  footer .footerinnerbox .secondbox ul li{
+    list-style: none;
+    color: #3e3e52;
+  }
+  footer .footerinnerbox .thirdbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 3rem 0px;
+  }
+  footer .footerinnerbox .thirdbox h1{
+    font-size: 1.25rem;
+  }
+  footer .footerinnerbox .thirdbox ul{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  footer .footerinnerbox .thirdbox ul li{
+    list-style: none;
+    color: #3e3e52;
+  }
+  footer .footerinnerbox .forthbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 3rem 0px;
+  }
+  footer .footerinnerbox .forthbox h1{
+    font-size: 1.25rem;
+  }
+  footer .footerinnerbox .forthbox ul{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  footer .footerinnerbox .forthbox ul li{
+    list-style: none;
+    color: #3e3e52;
+  }
+  footer .footerinnerbox .fifthbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 3rem 0px;
+  }
+  footer .footerinnerbox .fifthbox h1{
+    font-size: 1.25rem;
+  }
+  footer .footerinnerbox .fifthbox ul{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  footer .footerinnerbox .fifthbox ul li{
+    list-style: none;
+    color: #3e3e52;
+  }
+  footer .rights{
+    width: 100%;
+    height: 50px;
+    /* background-color: #007b2d; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  footer .rights p{
+    color: #3e3e52;
+  }
+  footer .rights .socials{
+    /* width: 25%; */
+    /* height: 100%; */
+    /* background-color: #1d1d1d; */
+    display: flex;
+    align-items: center;
+    gap: 1.5rem ;
+    /* justify-content: space-between; */
   }
