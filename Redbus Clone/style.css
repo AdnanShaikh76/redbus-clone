@@ -1094,3 +1094,101 @@ header .nav-item-right li .down{
     margin-right: 1.5rem;
     border: none;
 }
+.faqsection{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: #007b2d; */
+    padding: 0 150px;
+    /* margin: 25px 0px; */
+    margin-bottom: 25px;
+}
+.faqsection .faqinner{
+    padding: 100px 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: #60b681; */
+}
+.faqsection .faqinner h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color: #1d1d1d;
+    margin: 0 0 2.5rem 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.faqsection .faqinner ul{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    /* background-color: #1d1d1d; */
+    gap: 2rem;
+    font-size: 1.2rem;
+}
+.faqsection .faqinner ul li{
+    list-style: none;
+}
+.faqsection .faqinner ul li a:hover{
+    border-bottom: 1px solid #1d1d1d;   
+}
+/* .faqsection .faqinner ul li a .first{
+    color: #d84e55;
+} */
+.faqsection .faqinner ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #1d1d1d;
+    /* font-size: 2.5rems; */
+    padding: 10px 0;
+    font-weight: 400;
+}
+
+/* ------------------------ */
+details {
+    border: 1px solid rgba(112,112,112,0.1);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-bottom:10px;
+    cursor:pointer;
+    margin-top: 25px;
+    /* padding: 20px; */
+  }
+  summary {
+    font-weight: 600;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+    list-style-type:"+";
+    list-style:none;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    text-transform: capitalize;
+  }
+  details[open] {
+    /* padding-left: 1rem;  */
+    /* border:none; */
+    background-color:rgba(197, 204, 206, 0.338);
+  }
+  summary::marker{
+    color: #0000ff;
+    font-size: 1.2em;
+    margin-right:20px;
+  }
+  /* details:hover{
+     background-color:	 rgba(173,216,230,0.5);
+  } */
+  details summary::after{
+    content:"+";
+    float:right;
+    font-size:1.2em;
+    color:green;
+  }
+  details[open] summary::after{
+    content:"-";
+    float:right;
+    font-size:1.5em;
+    color:green;
+  }
+  .faqs-container p{
+    text-transform: capitalize;
+  }
