@@ -59,13 +59,11 @@ header .nav-item-left li:nth-child(3){
     align-items: center;
     justify-content: center;
     width: 100px;
-    /* height: 50px; */
     font-size: 0.8rem;
     margin-left: 20px;
     position: relative;
 }
 header .nav-item-left li:nth-child(3) img{
-    /* position: absolute; */
     width: 2.125rem;
     filter: brightness(0) invert(1);
     margin-bottom: 10px;
@@ -125,12 +123,10 @@ header .nav-item-left li:nth-child(4) .pop span{
     color: #fff;
     position: absolute;
     left: 7px;
-    /* top: 5px; */
 }
 header .nav-item-right{
     display: flex;
     align-items: center;
-    /* justify-content: center; */
 }
 header .nav-item-right li{
     position: relative;
@@ -150,12 +146,10 @@ header .nav-item-right li .down{
     left: 100px;
     top: 6px;
     font-size: 1rem;
-    /* float: right; */
 }
 .hero{
     width: 100%;
     height: 90vh;
-    /* background-color: aliceblue; */
     background-image: url(./media/Homepage-header-2000.jpg);
     background-position: center;
     background-size: contain;
@@ -168,7 +162,6 @@ header .nav-item-right li .down{
     left: 25%;
     font-size: 2rem;
     color: #fff;
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 .hero .inputs{
     width: 73%;
@@ -182,11 +175,7 @@ header .nav-item-right li .down{
     align-items: center;
     justify-content: space-evenly;
     overflow: hidden;
-    /* padding: 0 10px; */
 }
-/* .inputs img{
-    width: 50px;
-} */
 .inputs .from {
     position: relative;
     width: 25%;
@@ -202,7 +191,6 @@ header .nav-item-right li .down{
 }
 .inputs .from label{
     position: absolute;
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     color: #888;
     top: 30px; 
     left: 60px;
@@ -233,7 +221,6 @@ header .nav-item-right li .down{
 }
 .inputs .to label{
     position: absolute;
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     color: #888;
     top: 30px; 
     left: 50px;
@@ -264,7 +251,6 @@ header .nav-item-right li .down{
 }
 .inputs .date label{
     position: absolute;
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     color: #888;
     top: 30px; 
     left: 65px;
@@ -278,7 +264,6 @@ header .nav-item-right li .down{
     outline: none;
 }
 .inputs .submit{
-    /* margin-left: 10px; */
     width: 25%;
     height: 100%;
     display: flex;
@@ -290,7 +275,6 @@ header .nav-item-right li .down{
     color: #fff;
     text-decoration: none;
     font-size: 1.5rem;
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -298,7 +282,6 @@ header .nav-item-right li .down{
     position: relative;
     width: 100%;
     height: 35vh;
-    /* background-color: aliceblue; */
     padding: 0 150px;
 }
 .offer .offerbox{
@@ -316,7 +299,6 @@ header .nav-item-right li .down{
     top: 30px;
     left: 50px;
     font-size: 1.75rem;
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 .offer .offerbox a{
     position: absolute;
@@ -330,14 +312,12 @@ header .nav-item-right li .down{
     text-transform: uppercase;
     text-decoration: none;
     font-size: 18px;
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 .offer .offerbox .slider{
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 63%;
-    /* background-color: #60b681; */
     display: flex;
     gap: 1.5rem;
     margin-top: 10px;
@@ -369,7 +349,6 @@ header .nav-item-right li .down{
     position: relative;
     width: 60%;
     height: 100%;
-     /* background-color: #60b681; */
 }
 .offer .offerbox .slider .box .rightcontent span{
     background: rgba(255, 255, 255, 0.2);
@@ -410,7 +389,6 @@ header .nav-item-right li .down{
     white-space: nowrap;
 }
 .offer .offerbox .slider .box .rightcontent ion-icon{
-    /* margin-top: 5px; */
     font-size: 1.25rem;
 }
 .offer .offerbox .slider .second{
@@ -433,13 +411,11 @@ header .nav-item-right li .down{
     position: relative;
     width: 100%;
     height: 75vh;
-    /* background-color: aliceblue; */
 }
 .restpage .pagecontents{
     position: relative;
     width: 100%;
     height: 100%;
-    /* background-color: #60b681; */
 }
 .restpage .pagecontents h1{
     position: relative;
@@ -470,13 +446,11 @@ header .nav-item-right li .down{
     top: 150px;
     width: 100%;
     height: 40vh;
-    /* background-color: #60b681; */
     padding: 15px;
     display: flex;
     gap: 1.5rem;
     overflow: scroll hidden;
     scroll-behavior: smooth;
-    /* scrollbar-width: none; */
 }
 .restpage .pagecontents .state-service-section .state-box{
     position: relative;
@@ -486,7 +460,6 @@ header .nav-item-right li .down{
     border-radius: 16px;
     text-align: center;
     box-shadow: 0 1px 12px 0 rgba(29, 29, 29, .1)
-    /* overflow: hidden; */
 }
 .restpage .pagecontents .state-service-section .state-box .topbox{
     min-width: 480px;
@@ -497,7 +470,6 @@ header .nav-item-right li .down{
 .restpage .pagecontents .state-service-section .state-box .top{
     position: relative;
     width: 100%;
-    /* height: 20px; */
     padding: 16px;
     border-bottom: 1px solid #e5e5e5 ;
     display: flex;
@@ -509,8 +481,6 @@ header .nav-item-right li .down{
     margin-left: 10px;
     width: 80%;
     height: 35px;
-    /* border-right: 1px solid red; */
-    /* background-color: #1d1d1d; */
     display: flex;
     gap: 12px;
 }
@@ -519,7 +489,6 @@ header .nav-item-right li .down{
     margin-left: 10px;
     font-size: 1.5rem;
     font-weight: 700;
-    /* line-height: 1.5rem; */
     color: #1d1d1d;
 }
 .restpage .pagecontents .state-service-section .state-box .top .statename .ratingbox{
@@ -534,7 +503,6 @@ header .nav-item-right li .down{
 }
 .restpage .pagecontents .state-service-section .state-box .top .languagedescription{
     position: absolute;
-    /* padding: 2px; */
     left: 90px;
     top: 55px;
     width: max-content;
@@ -548,13 +516,9 @@ header .nav-item-right li .down{
     position: relative;
     width: 100%;
     padding: 1rem;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
 }
 .restpage .pagecontents .state-service-section .state-box .bottombox h2{
     position: relative;
-    /* bottom: 0px; */
     margin: 0 4rem;
     font-size: 1rem;
     text-align: center;
@@ -565,10 +529,8 @@ header .nav-item-right li .down{
 .restpage .pagecontents .state-service-section .state-box .topbox .lastinbox{
     position: relative;
     bottom: 0px;
-    /* left: 20px; */
     width: 100%;
     height: 28px;
-    /* background-color: #007b2d; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -591,7 +553,6 @@ header .nav-item-right li .down{
     font-size: 0.8rem;
     text-overflow: ellipsis;
     color: rgb(29, 29, 29);
-    /* font-family:Verdana, Geneva, Tahoma, sans-serif */
 }
 .trainsection{
     width: 100%;
@@ -601,7 +562,6 @@ header .nav-item-right li .down{
 .trainsection .aboutbox{
     width: 100%;
     height: 100%;
-    /* background-color: #007b2d; */
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -609,12 +569,10 @@ header .nav-item-right li .down{
 .trainsection .aboutbox .aboutleft{
     width: 45%;
     height: 100%;
-    /* background-color: #1d1d1d; */
     display: flex;
     flex-direction: column;
 }
 .trainsection .aboutbox .aboutleft h2{
-    /* background-color: #007b2d; */
     width: 30.2rem;
     font-size: 2.5rem;
     font-weight: 400;
@@ -626,7 +584,6 @@ header .nav-item-right li .down{
 .trainsection .aboutbox .aboutleft .aboutleftsecond{
     width: 50%;
     padding: 0.875rem 1rem;
-    /* background-color: #007b2d; */
     border-bottom: 3px solid #d84e55;
     border-radius: 0px 0px 3px 3px;
     display: flex;
@@ -649,7 +606,6 @@ header .nav-item-right li .down{
 .trainsection .aboutbox .aboutleft .aboutleftthird{
     width: 100%;
     height: 35vh;
-    /* background-color: #007b2d; */
     font-family: monospace;
 }
 .trainsection .aboutbox .aboutleft .aboutleftthird p{
@@ -700,7 +656,6 @@ header .nav-item-right li .down{
 .aboutapp{
     width: 100%;
     height: 100vh;
-    /* background-color: #007b2d; */
     padding: 0 150px;
     display: flex;
     align-items: center;
@@ -729,7 +684,6 @@ header .nav-item-right li .down{
 .aboutapp .aboutappbox .aboutappbottom{
     width: 100%;
     height: 100%;
-    /* background-color: #007b2d; */
     display: flex;
     align-items: center;
     gap: 4rem;
@@ -743,7 +697,6 @@ header .nav-item-right li .down{
     border-radius: 1rem;
 }
 .aboutapp .aboutappbox .aboutappbottom .whitebox .twolistbox{
-    /* width: 100%; */
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -760,8 +713,6 @@ header .nav-item-right li .down{
 }
 .aboutapp .aboutappbox .aboutappbottom .whitebox .downloaddescription{
     width: 100%;
-    /* height: 50px; */
-    /* background-color: #007b2d; */
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -770,7 +721,6 @@ header .nav-item-right li .down{
 .aboutapp .aboutappbox .aboutappbottom .whitebox .downloaddescription .left{
     width: 50%;
     height: 100%;
-    /* background-color: #1d1d1d; */
     border-right: 1px solid #666;
 }
 .aboutapp .aboutappbox .aboutappbottom .whitebox .downloaddescription .left h3{
@@ -785,7 +735,6 @@ header .nav-item-right li .down{
 .aboutapp .aboutappbox .aboutappbottom .whitebox .downloaddescription .right{
     width: 50%;
     height: 100%;
-    /* background-color: #1d1d1d; */
     padding-left: 10px;
 }
 .aboutapp .aboutappbox .aboutappbottom .whitebox .downloaddescription .right h3{
@@ -800,15 +749,12 @@ header .nav-item-right li .down{
 .aboutapp .aboutappbox .aboutappbottom .downloadappoptions{
     width: 20rem;
     padding: 2rem 0;
-    /* background-color: #fff; */
     display: flex;
     justify-content: space-between;
-    /* gap: 1rem; */
 }
 .aboutapp .aboutappbox .aboutappbottom .downloadappoptions .qrbox{
     width: 106px;
     height: 106px;
-    /* background-color: #007b2d; */
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -825,8 +771,6 @@ header .nav-item-right li .down{
 }
 .aboutapp .aboutappbox .aboutappbottom .downloadappoptions .downloadplatform{
     width: 106px;
-    /* height: 106px; */
-    /* background-color: #007b2d; */
 }
 .aboutapp .aboutappbox .aboutappbottom .downloadappoptions .downloadplatform h3{
     font-size: 16px;
@@ -841,7 +785,6 @@ header .nav-item-right li .down{
 .primo{
     width: 100%;
     height: 100vh;
-    /* background-color: #007b2d; */
     padding: 0 150px;
     display: flex;
     align-items: center;
@@ -852,14 +795,11 @@ header .nav-item-right li .down{
     height: 552px;
     background-color: rgb(251, 202, 65);
     border-radius: 2.5rem;
-    /* background-image: url(./media/appInstallbg.svg); */
     background-position: right center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* padding: 2rem; */
     overflow: hidden;
     display: flex;
-    /* flex-direction: column; */
 }
 .primo .primobox .imgsection{
     width: 50rem;
@@ -879,8 +819,6 @@ header .nav-item-right li .down{
 }
 .primo .primobox .primodescription .description{
     width: 100%;
-    /* height: 50px; */
-    /* background-color: #fff; */
     display: flex;
     align-items: center;
     gap: 1.5rem ;
@@ -891,7 +829,6 @@ header .nav-item-right li .down{
 .primo .primobox .primodescription .description .icondescription{
     width: 100%;
     height: 100%;
-    /* background-color: #007b2d; */
     display: flex;
     flex-direction: column;
 }
@@ -907,33 +844,26 @@ header .nav-item-right li .down{
 .globalpresence{
     width: 100%;
     height: 75vh;
-    /* background-color: #007b2d; */
     padding: 0 150px;
 }
 .globalpresence .countrybox{
     width: 100%;
     height: 100%;
-    /* background-color: #60b681; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap: 1.5rem;
-    /* position: relative  ; */
 }
 .globalpresence .countrybox h1{
-    /* position: absolute;
-    top: 10rem; */
     text-transform: uppercase;
     font-weight: 600;
     font-size: 2rem;
     color: #1d1d1d;
-    /* font-family: Arial, Helvetica, sans-serif; */
 }
 .globalpresence .countrybox .countrylistbox{
     width: 100%;
     height: 15rem;
-    /* background-color: #007b2d; */
     display: flex;
     gap: 2rem;
     overflow: hidden;
@@ -962,13 +892,11 @@ header .nav-item-right li .down{
 .bookticketarticle{
     width: 100%;
     height: 75vh;
-    /* background-color: #007b2d; */
     padding: 0 150px;
 }
 .bookticketarticle .articlebox{
     width: 100%;
     height: 100%;
-    /* background-color: #60b681; */
 }
 .bookticketarticle .articlebox h2{
     font-size: 2.5rem;
@@ -999,13 +927,11 @@ header .nav-item-right li .down{
 .busbookingsection{
     width: 100%;
     height: 80vh;
-    /* background-color: #007b2d; */
     padding: 0 150px;
 }
 .busbookingsection .busbookingmainbox{
     width: 100%;
     height: 100%;
-    /* background-color: #60b681; */
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -1031,8 +957,6 @@ header .nav-item-right li .down{
 }
 .busbookingsection .busbookingmainbox .booknowbox{
     width: 100%;
-    /* height: 100px; */
-    /* background-color: #666; */
     padding: 1.75rem 1.5rem;
     margin: 1.5rem 0;
     border-radius: 1.25rem;
@@ -1047,7 +971,6 @@ header .nav-item-right li .down{
 .busbookingsection .busbookingmainbox .booknowbox .midcontent{
     display: flex;
     flex-direction: column;
-    /* width: 30rem; */
 }
 .busbookingsection .busbookingmainbox .booknowbox .midcontent h3{
     font-size: 1.5rem;
@@ -1060,20 +983,16 @@ header .nav-item-right li .down{
 }
 .busbookingsection .busbookingmainbox .booknowbox .midcontent .busdescribe{
     width: 100%;
-    /* height: 20px; */
-    /* background-color: #1d1d1d;    */
     display: flex;
     text-wrap: nowrap;
 }
 .busbookingsection .busbookingmainbox .booknowbox .midcontent .busdescribe .describe{
     width: 32%;
-    /* height: 15px; */
     margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
-    /* padding: 0 10px; */
 }
 .busbookingsection .busbookingmainbox .booknowbox .midcontent .busdescribe .describe p{
     font-size: 1rem;
@@ -1098,16 +1017,13 @@ header .nav-item-right li .down{
 .faqsection{
     width: 100%;
     min-height: 100vh;
-    /* background-color: #007b2d; */
     padding: 0 150px;
-    /* margin: 25px 0px; */
     margin-bottom: 25px;
 }
 .faqsection .faqinner{
     padding: 100px 0;
     width: 100%;
     height: 100%;
-    /* background-color: #60b681; */
 }
 .faqsection .faqinner h1{
     font-size: 2.5rem;
@@ -1122,7 +1038,6 @@ header .nav-item-right li .down{
     height: 50px;
     display: flex;
     align-items: center;
-    /* background-color: #1d1d1d; */
     gap: 2rem;
     font-size: 1.2rem;
 }
@@ -1132,19 +1047,13 @@ header .nav-item-right li .down{
 .faqsection .faqinner ul li a:hover{
     border-bottom: 1px solid #1d1d1d;   
 }
-/* .faqsection .faqinner ul li a .first{
-    color: #d84e55;
-} */
 .faqsection .faqinner ul li a{
     text-decoration: none;
     text-transform: capitalize;
     color: #1d1d1d;
-    /* font-size: 2.5rems; */
     padding: 10px 0;
     font-weight: 400;
 }
-
-/* ------------------------ */
 details {
     border: 1px solid rgba(112,112,112,0.1);
     border-radius: 1rem;
@@ -1152,7 +1061,6 @@ details {
     margin-bottom:10px;
     cursor:pointer;
     margin-top: 25px;
-    /* padding: 20px; */
   }
   summary {
     font-weight: 600;
@@ -1166,8 +1074,6 @@ details {
     text-transform: capitalize;
   }
   details[open] {
-    /* padding-left: 1rem;  */
-    /* border:none; */
     background-color:rgba(197, 204, 206, 0.338);
   }
   summary::marker{
@@ -1175,9 +1081,6 @@ details {
     font-size: 1.2em;
     margin-right:20px;
   }
-  /* details:hover{
-     background-color:	 rgba(173,216,230,0.5);
-  } */
   details summary::after{
     content:"+";
     float:right;
@@ -1210,7 +1113,6 @@ details {
   .routesfaq .routesfaqinner .faqbox{
     width: 100%;
     height: 100px;
-    /* background-color: #fff; */
     overflow: hidden;
     padding: 20px 50px;
     border-bottom: 1px solid #888;
@@ -1244,22 +1146,18 @@ details {
   footer{
     width: 100%;
     height: 80vh;
-    /* background-color: #007b2d; */
     padding: 35px 150px;
 }
 footer .footerinnerbox{
     width: 100%;
     height: 100%;
-    /* background-color: #60b681; */
     border-bottom: 1px solid #888;
     display: flex;
     justify-content: space-between;
-    /* gap: 3rem; */
   }
   footer .footerinnerbox .firstbox{
     width: 17rem;
     height: 100%;
-    /* background-color: #fff; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1349,7 +1247,6 @@ footer .footerinnerbox{
   footer .rights{
     width: 100%;
     height: 50px;
-    /* background-color: #007b2d; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1358,11 +1255,7 @@ footer .footerinnerbox{
     color: #3e3e52;
   }
   footer .rights .socials{
-    /* width: 25%; */
-    /* height: 100%; */
-    /* background-color: #1d1d1d; */
     display: flex;
     align-items: center;
     gap: 1.5rem ;
-    /* justify-content: space-between; */
   }
